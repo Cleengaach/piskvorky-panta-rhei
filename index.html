@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>piskvorky</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="playground"></div>
+        <nav class="pl-1">
+            <ul class="player">
+                <li>
+                    Player 1
+                </li>
+                <li class="hide">
+                    Player 2
+                </li>
+            </ul>
+            <div class="undo">
+                <div class="undo-inner">
+                    <button id="undo">
+                        <span class="icon"><-</span>
+                        UNDO
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+        <div class="modal hide">
+            <p>
+                Gratulujeme,
+            </p>
+            <h2></h2>
+            <button id="restart">
+                Hrať znova
+            </button>
+        </div>
+    </body>
+</html>
